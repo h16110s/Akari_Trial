@@ -14,6 +14,22 @@
 		C6DA03B62132E1B100797434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03B42132E1B100797434 /* LaunchScreen.storyboard */; };
 		C6DA03C12132E1B100797434 /* Akari_TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03C02132E1B100797434 /* Akari_TrialTests.swift */; };
 		C6DA03CC2132E1B200797434 /* Akari_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03CB2132E1B200797434 /* Akari_TrialUITests.swift */; };
+		C6DA03E12132E58C00797434 /* FalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03DF2132E58C00797434 /* FalseViewController.swift */; };
+		C6DA03E22132E58C00797434 /* TrueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03E02132E58C00797434 /* TrueViewController.swift */; };
+		C6DA03EC2132E5D500797434 /* FalsePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03E92132E5D500797434 /* FalsePic.jpg */; };
+		C6DA03ED2132E5D500797434 /* TruePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03EA2132E5D500797434 /* TruePic.jpg */; };
+		C6DA03EE2132E5D500797434 /* S__59351050.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03EB2132E5D500797434 /* S__59351050.jpg */; };
+		C6DA03F42132E5E500797434 /* DetectPeakOfSpectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F02132E5E500797434 /* DetectPeakOfSpectrum.swift */; };
+		C6DA03F52132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F12132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift */; };
+		C6DA03F62132E5E500797434 /* TimeAxisWaveFormPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F22132E5E500797434 /* TimeAxisWaveFormPlot.swift */; };
+		C6DA03F72132E5E500797434 /* TimeAxisWaveFormGenerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F32132E5E500797434 /* TimeAxisWaveFormGenerate.swift */; };
+		C6DA04DC2132E79000797434 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA04DB2132E79000797434 /* CloudKit.framework */; };
+		C6DA05802132EAC300797434 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA05732132EAA000797434 /* Surge.framework */; };
+		C6DA05812132EAC300797434 /* Surge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA05732132EAA000797434 /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6DA05842132EAC300797434 /* EasyCamery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA05632132EA9900797434 /* EasyCamery.framework */; };
+		C6DA05852132EAC300797434 /* EasyCamery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA05632132EA9900797434 /* EasyCamery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6DA05882132EAC300797434 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA054C2132EA8F00797434 /* EasyImagy.framework */; };
+		C6DA05892132EAC300797434 /* EasyImagy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA054C2132EA8F00797434 /* EasyImagy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +47,163 @@
 			remoteGlobalIDString = C6DA03A72132E1AE00797434;
 			remoteInfo = Akari_Trial;
 		};
+		C6DA054B2132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134A0E1F85226C005592A2;
+			remoteInfo = "EasyImagy-iOS";
+		};
+		C6DA054D2132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134A171F85226D005592A2;
+			remoteInfo = "EasyImagyTests-iOS";
+		};
+		C6DA054F2132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134A601F852C80005592A2;
+			remoteInfo = "EasyImagy-macOS";
+		};
+		C6DA05512132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134A681F852C80005592A2;
+			remoteInfo = "EasyImagyTests-macOS";
+		};
+		C6DA05532132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134AA21F85D1F9005592A2;
+			remoteInfo = "EasyImagy-tvOS";
+		};
+		C6DA05552132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134AAA1F85D1FA005592A2;
+			remoteInfo = "EasyImagyTests-tvOS";
+		};
+		C6DA05572132EA8F00797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6134AD21F85D800005592A2;
+			remoteInfo = "EasyImagy-watchOS";
+		};
+		C6DA05622132EA9900797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6ECC47320E33EAC0042561B;
+			remoteInfo = EasyCamery;
+		};
+		C6DA05642132EA9900797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6ECC47C20E33EAC0042561B;
+			remoteInfo = EasyCameryTests;
+		};
+		C6DA05662132EA9900797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6ECC4A320E340140042561B;
+			remoteInfo = Sample;
+		};
+		C6DA05722132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8A1E1AA19917A79009735E2;
+			remoteInfo = "Surge-iOS";
+		};
+		C6DA05742132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F84A6AAE19A9A72F007B53E1;
+			remoteInfo = "SurgeTests-iOS";
+		};
+		C6DA05762132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614AD31F1FC0AD99002BFE1C;
+			remoteInfo = "Surge-macOS";
+		};
+		C6DA05782132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614AD3271FC0AD99002BFE1C;
+			remoteInfo = "SurgeTests-macOS";
+		};
+		C6DA057A2132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614AD3511FC0B001002BFE1C;
+			remoteInfo = "Surge-tvOS";
+		};
+		C6DA057C2132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614AD3591FC0B001002BFE1C;
+			remoteInfo = "SurgeTests-tvOS";
+		};
+		C6DA057E2132EAA000797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 614AD3821FC0B125002BFE1C;
+			remoteInfo = "Surge-watchOS";
+		};
+		C6DA05822132EAC300797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8A1E1A919917A79009735E2;
+			remoteInfo = "Surge-iOS";
+		};
+		C6DA05862132EAC300797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ECC47220E33EAC0042561B;
+			remoteInfo = EasyCamery;
+		};
+		C6DA058A2132EAC300797434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D6134A0D1F85226C005592A2;
+			remoteInfo = "EasyImagy-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6DA04D92132E75500797434 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6DA05892132EAC300797434 /* EasyImagy.framework in Embed Frameworks */,
+				C6DA05812132EAC300797434 /* Surge.framework in Embed Frameworks */,
+				C6DA05852132EAC300797434 /* EasyCamery.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C6DA03A82132E1AE00797434 /* Akari_Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akari_Trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +219,19 @@
 		C6DA03C72132E1B200797434 /* Akari_TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Akari_TrialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DA03CB2132E1B200797434 /* Akari_TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Akari_TrialUITests.swift; sourceTree = "<group>"; };
 		C6DA03CD2132E1B200797434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DA03DF2132E58C00797434 /* FalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalseViewController.swift; sourceTree = "<group>"; };
+		C6DA03E02132E58C00797434 /* TrueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueViewController.swift; sourceTree = "<group>"; };
+		C6DA03E92132E5D500797434 /* FalsePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FalsePic.jpg; sourceTree = "<group>"; };
+		C6DA03EA2132E5D500797434 /* TruePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TruePic.jpg; sourceTree = "<group>"; };
+		C6DA03EB2132E5D500797434 /* S__59351050.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S__59351050.jpg; sourceTree = "<group>"; };
+		C6DA03F02132E5E500797434 /* DetectPeakOfSpectrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectPeakOfSpectrum.swift; sourceTree = "<group>"; };
+		C6DA03F12132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyWindowToTimeAxisWaveForm.swift; sourceTree = "<group>"; };
+		C6DA03F22132E5E500797434 /* TimeAxisWaveFormPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAxisWaveFormPlot.swift; sourceTree = "<group>"; };
+		C6DA03F32132E5E500797434 /* TimeAxisWaveFormGenerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAxisWaveFormGenerate.swift; sourceTree = "<group>"; };
+		C6DA04DB2132E79000797434 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyImagy.xcodeproj; path = EasyImagy/EasyImagy.xcodeproj; sourceTree = "<group>"; };
+		C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyCamery.xcodeproj; path = EasyCamery/EasyCamery.xcodeproj; sourceTree = "<group>"; };
+		C6DA05682132EAA000797434 /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = Surge/Surge.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +239,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DA05882132EAC300797434 /* EasyImagy.framework in Frameworks */,
+				C6DA05842132EAC300797434 /* EasyCamery.framework in Frameworks */,
+				C6DA04DC2132E79000797434 /* CloudKit.framework in Frameworks */,
+				C6DA05802132EAC300797434 /* Surge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +266,14 @@
 		C6DA039F2132E1AE00797434 = {
 			isa = PBXGroup;
 			children = (
+				C6DA05682132EAA000797434 /* Surge.xcodeproj */,
+				C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */,
+				C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */,
 				C6DA03AA2132E1AE00797434 /* Akari_Trial */,
 				C6DA03BF2132E1B100797434 /* Akari_TrialTests */,
 				C6DA03CA2132E1B200797434 /* Akari_TrialUITests */,
 				C6DA03A92132E1AE00797434 /* Products */,
+				C6DA04DA2132E78F00797434 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +290,12 @@
 		C6DA03AA2132E1AE00797434 /* Akari_Trial */ = {
 			isa = PBXGroup;
 			children = (
+				C6DA03EF2132E5E500797434 /* class */,
+				C6DA03E92132E5D500797434 /* FalsePic.jpg */,
+				C6DA03EB2132E5D500797434 /* S__59351050.jpg */,
+				C6DA03EA2132E5D500797434 /* TruePic.jpg */,
+				C6DA03DF2132E58C00797434 /* FalseViewController.swift */,
+				C6DA03E02132E58C00797434 /* TrueViewController.swift */,
 				C6DA03AB2132E1AE00797434 /* AppDelegate.swift */,
 				C6DA03AD2132E1AE00797434 /* ViewController.swift */,
 				C6DA03AF2132E1AE00797434 /* Main.storyboard */,
@@ -125,6 +324,63 @@
 			path = Akari_TrialUITests;
 			sourceTree = "<group>";
 		};
+		C6DA03EF2132E5E500797434 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA03F02132E5E500797434 /* DetectPeakOfSpectrum.swift */,
+				C6DA03F12132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift */,
+				C6DA03F22132E5E500797434 /* TimeAxisWaveFormPlot.swift */,
+				C6DA03F32132E5E500797434 /* TimeAxisWaveFormGenerate.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		C6DA04DA2132E78F00797434 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA04DB2132E79000797434 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6DA05412132EA8F00797434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA054C2132EA8F00797434 /* EasyImagy.framework */,
+				C6DA054E2132EA8F00797434 /* EasyImagyTests-iOS.xctest */,
+				C6DA05502132EA8F00797434 /* EasyImagy.framework */,
+				C6DA05522132EA8F00797434 /* EasyImagyTests.xctest */,
+				C6DA05542132EA8F00797434 /* EasyImagy.framework */,
+				C6DA05562132EA8F00797434 /* EasyImagyTests.xctest */,
+				C6DA05582132EA8F00797434 /* EasyImagy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DA055A2132EA9900797434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA05632132EA9900797434 /* EasyCamery.framework */,
+				C6DA05652132EA9900797434 /* EasyCameryTests.xctest */,
+				C6DA05672132EA9900797434 /* Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DA05692132EAA000797434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DA05732132EAA000797434 /* Surge.framework */,
+				C6DA05752132EAA000797434 /* SurgeTests-iOS.xctest */,
+				C6DA05772132EAA000797434 /* Surge.framework */,
+				C6DA05792132EAA000797434 /* SurgeTests-macOS.xctest */,
+				C6DA057B2132EAA000797434 /* Surge.framework */,
+				C6DA057D2132EAA000797434 /* SurgeTests-tvOS.xctest */,
+				C6DA057F2132EAA000797434 /* Surge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +391,14 @@
 				C6DA03A42132E1AE00797434 /* Sources */,
 				C6DA03A52132E1AE00797434 /* Frameworks */,
 				C6DA03A62132E1AE00797434 /* Resources */,
+				C6DA04D92132E75500797434 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C6DA05832132EAC300797434 /* PBXTargetDependency */,
+				C6DA05872132EAC300797434 /* PBXTargetDependency */,
+				C6DA058B2132EAC300797434 /* PBXTargetDependency */,
 			);
 			name = Akari_Trial;
 			productName = Akari_Trial;
@@ -215,6 +475,20 @@
 			mainGroup = C6DA039F2132E1AE00797434;
 			productRefGroup = C6DA03A92132E1AE00797434 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6DA055A2132EA9900797434 /* Products */;
+					ProjectRef = C6DA05592132EA9900797434 /* EasyCamery.xcodeproj */;
+				},
+				{
+					ProductGroup = C6DA05412132EA8F00797434 /* Products */;
+					ProjectRef = C6DA05402132EA8F00797434 /* EasyImagy.xcodeproj */;
+				},
+				{
+					ProductGroup = C6DA05692132EAA000797434 /* Products */;
+					ProjectRef = C6DA05682132EAA000797434 /* Surge.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C6DA03A72132E1AE00797434 /* Akari_Trial */,
@@ -224,14 +498,139 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C6DA054C2132EA8F00797434 /* EasyImagy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyImagy.framework;
+			remoteRef = C6DA054B2132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA054E2132EA8F00797434 /* EasyImagyTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "EasyImagyTests-iOS.xctest";
+			remoteRef = C6DA054D2132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05502132EA8F00797434 /* EasyImagy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyImagy.framework;
+			remoteRef = C6DA054F2132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05522132EA8F00797434 /* EasyImagyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EasyImagyTests.xctest;
+			remoteRef = C6DA05512132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05542132EA8F00797434 /* EasyImagy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyImagy.framework;
+			remoteRef = C6DA05532132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05562132EA8F00797434 /* EasyImagyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EasyImagyTests.xctest;
+			remoteRef = C6DA05552132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05582132EA8F00797434 /* EasyImagy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyImagy.framework;
+			remoteRef = C6DA05572132EA8F00797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05632132EA9900797434 /* EasyCamery.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EasyCamery.framework;
+			remoteRef = C6DA05622132EA9900797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05652132EA9900797434 /* EasyCameryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = EasyCameryTests.xctest;
+			remoteRef = C6DA05642132EA9900797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05672132EA9900797434 /* Sample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Sample.app;
+			remoteRef = C6DA05662132EA9900797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05732132EAA000797434 /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = C6DA05722132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05752132EAA000797434 /* SurgeTests-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SurgeTests-iOS.xctest";
+			remoteRef = C6DA05742132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05772132EAA000797434 /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = C6DA05762132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA05792132EAA000797434 /* SurgeTests-macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SurgeTests-macOS.xctest";
+			remoteRef = C6DA05782132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA057B2132EAA000797434 /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = C6DA057A2132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA057D2132EAA000797434 /* SurgeTests-tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SurgeTests-tvOS.xctest";
+			remoteRef = C6DA057C2132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6DA057F2132EAA000797434 /* Surge.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Surge.framework;
+			remoteRef = C6DA057E2132EAA000797434 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C6DA03A62132E1AE00797434 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6DA03B62132E1B100797434 /* LaunchScreen.storyboard in Resources */,
+				C6DA03ED2132E5D500797434 /* TruePic.jpg in Resources */,
 				C6DA03B32132E1B100797434 /* Assets.xcassets in Resources */,
+				C6DA03EC2132E5D500797434 /* FalsePic.jpg in Resources */,
 				C6DA03B12132E1AE00797434 /* Main.storyboard in Resources */,
+				C6DA03EE2132E5D500797434 /* S__59351050.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +655,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DA03E12132E58C00797434 /* FalseViewController.swift in Sources */,
+				C6DA03F42132E5E500797434 /* DetectPeakOfSpectrum.swift in Sources */,
 				C6DA03AE2132E1AE00797434 /* ViewController.swift in Sources */,
+				C6DA03E22132E58C00797434 /* TrueViewController.swift in Sources */,
 				C6DA03AC2132E1AE00797434 /* AppDelegate.swift in Sources */,
+				C6DA03F52132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift in Sources */,
+				C6DA03F62132E5E500797434 /* TimeAxisWaveFormPlot.swift in Sources */,
+				C6DA03F72132E5E500797434 /* TimeAxisWaveFormGenerate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +694,21 @@
 			isa = PBXTargetDependency;
 			target = C6DA03A72132E1AE00797434 /* Akari_Trial */;
 			targetProxy = C6DA03C82132E1B200797434 /* PBXContainerItemProxy */;
+		};
+		C6DA05832132EAC300797434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Surge-iOS";
+			targetProxy = C6DA05822132EAC300797434 /* PBXContainerItemProxy */;
+		};
+		C6DA05872132EAC300797434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyCamery;
+			targetProxy = C6DA05862132EAC300797434 /* PBXContainerItemProxy */;
+		};
+		C6DA058B2132EAC300797434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EasyImagy-iOS";
+			targetProxy = C6DA058A2132EAC300797434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -429,8 +849,10 @@
 		C6DA03D12132E1B200797434 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9927DY824;
 				INFOPLIST_FILE = Akari_Trial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,8 +868,10 @@
 		C6DA03D22132E1B200797434 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9927DY824;
 				INFOPLIST_FILE = Akari_Trial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
