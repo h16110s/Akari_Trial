@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     private var MAXFFTCount = 3;
     private var wave = [Float]()
     private var spectrum = [Float]()
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         
         camera.start { [weak self] image in
             // Makes `image` negative
@@ -30,11 +30,10 @@ class ViewController: UIViewController {
                 self?.wave = TimeAxisWaveFormGenerate.extractRGBTimeAxisWaveForm(inputImage: image)
                 self?.spectrum = MultiplyWindowToTimeAxisWaveForm.MultiplyWindowAndZerofillToTimeAxisWaveForm(timeAxisWaveForm: (self?.wave)!)
                 self?.detectPeakAndPlot()
-                
-                var imageOut = TimeAxisWaveFormPlot.plotTimeAxisWaveFormR(inputImage: image, timeAxisWaveForm: (self?.spectrum)!)
-                self?.imageView.image = imageOut.uiImage(orientedTo: UIApplication.shared.cameraOrientation)
                 self?.FFTCount = (self?.MAXFFTCount)!;
             }
+            var imageOut = TimeAxisWaveFormPlot.plotTimeAxisWaveFormR(inputImage: image, timeAxisWaveForm: (self?.spectrum)!)
+            self?.imageView.image = imageOut.uiImage(orientedTo: UIApplication.shared.cameraOrientation)
             self?.FFTCount -= 1
             
             

@@ -16,17 +16,17 @@ public class TimeAxisWaveFormPlot: NSObject {
         
         var outputImage:Image<RGBA<UInt8>> = inputImage;
         
-        for w in 0..<inputImage.width*20{
-            for h in 0..<inputImage.height{
-                if(inputImage.width <= w){
-                    
-                }else if(Float(inputImage.width)*Float(timeAxisWaveForm[Int(w/20)])/Float(maxGaugeOfGraph) > Float(h)){
-                    outputImage[w,h].red = 255
-                    outputImage[w,h].green = 0
-                    outputImage[w,h].blue = 0
-                }
-            }
-        }
+//        for w in 0..<inputImage.width*20{
+//            for h in 0..<inputImage.height{
+//                if(inputImage.width <= w){
+//
+//                }else if(Float(inputImage.width)*Float(timeAxisWaveForm[Int(w/20)])/Float(maxGaugeOfGraph) > Float(h)){
+//                    outputImage[w,h].red = 255
+//                    outputImage[w,h].green = 0
+//                    outputImage[w,h].blue = 0
+//                }
+//            }
+//        }
         return outputImage
     }
 }
