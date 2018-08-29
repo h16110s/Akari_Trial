@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C690CE5C213703E500101B87 /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DA05332132EA7800797434 /* EasyImagy.framework */; };
 		D6ECC47D20E33EAC0042561B /* EasyCamery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC47320E33EAC0042561B /* EasyCamery.framework */; };
 		D6ECC49220E33F390042561B /* EasyCamery.h in Headers */ = {isa = PBXBuildFile; fileRef = D6ECC48F20E33F390042561B /* EasyCamery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6ECC49320E33F390042561B /* EasyCamery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECC49020E33F390042561B /* EasyCamery.swift */; };
@@ -16,7 +17,6 @@
 		D6ECC4AB20E340140042561B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6ECC4A920E340140042561B /* Main.storyboard */; };
 		D6ECC4AD20E340160042561B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECC4AC20E340160042561B /* Assets.xcassets */; };
 		D6ECC4B020E340160042561B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6ECC4AE20E340160042561B /* LaunchScreen.storyboard */; };
-		D6ECC4B620E340640042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC4B520E340630042561B /* EasyImagy.framework */; };
 		D6ECC4B720E340640042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC4B520E340630042561B /* EasyImagy.framework */; };
 		D6ECC4B920E340740042561B /* EasyImagy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC4B520E340630042561B /* EasyImagy.framework */; };
 		D6ECC4BA20E340740042561B /* EasyImagy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECC4B520E340630042561B /* EasyImagy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -25,104 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6DA04772132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A0E1F85226C005592A2;
-			remoteInfo = "EasyImagy-iOS";
-		};
-		C6DA04792132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A171F85226D005592A2;
-			remoteInfo = "EasyImagyTests-iOS";
-		};
-		C6DA047B2132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A601F852C80005592A2;
-			remoteInfo = "EasyImagy-macOS";
-		};
-		C6DA047D2132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A681F852C80005592A2;
-			remoteInfo = "EasyImagyTests-macOS";
-		};
-		C6DA047F2132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AA21F85D1F9005592A2;
-			remoteInfo = "EasyImagy-tvOS";
-		};
-		C6DA04812132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AAA1F85D1FA005592A2;
-			remoteInfo = "EasyImagyTests-tvOS";
-		};
-		C6DA04832132E6DE00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AD21F85D800005592A2;
-			remoteInfo = "EasyImagy-watchOS";
-		};
-		C6DA048F2132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A0E1F85226C005592A2;
-			remoteInfo = "EasyImagy-iOS";
-		};
-		C6DA04912132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A171F85226D005592A2;
-			remoteInfo = "EasyImagyTests-iOS";
-		};
-		C6DA04932132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A601F852C80005592A2;
-			remoteInfo = "EasyImagy-macOS";
-		};
-		C6DA04952132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134A681F852C80005592A2;
-			remoteInfo = "EasyImagyTests-macOS";
-		};
-		C6DA04972132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AA21F85D1F9005592A2;
-			remoteInfo = "EasyImagy-tvOS";
-		};
-		C6DA04992132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AAA1F85D1FA005592A2;
-			remoteInfo = "EasyImagyTests-tvOS";
-		};
-		C6DA049B2132E73A00797434 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D6134AD21F85D800005592A2;
-			remoteInfo = "EasyImagy-watchOS";
-		};
 		C6DA05322132EA7800797434 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C6DA051A2132EA7800797434 /* EasyImagy.xcodeproj */;
@@ -204,8 +106,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyImagy.xcodeproj; path = ../EasyImagy/EasyImagy.xcodeproj; sourceTree = "<group>"; };
-		C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyImagy.xcodeproj; path = ../EasyImagy/EasyImagy.xcodeproj; sourceTree = "<group>"; };
 		C6DA051A2132EA7800797434 /* EasyImagy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EasyImagy.xcodeproj; path = ../EasyImagy/EasyImagy.xcodeproj; sourceTree = "<group>"; };
 		D6ECC47320E33EAC0042561B /* EasyCamery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyCamery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6ECC47C20E33EAC0042561B /* EasyCameryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyCameryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6ECC4B620E340640042561B /* EasyImagy.framework in Frameworks */,
+				C690CE5C213703E500101B87 /* EasyImagy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,32 +156,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C6DA046D2132E6DD00797434 /* Products */ = {
+		C690CE5B213703E500101B87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C6DA04782132E6DE00797434 /* EasyImagy.framework */,
-				C6DA047A2132E6DE00797434 /* EasyImagyTests-iOS.xctest */,
-				C6DA047C2132E6DE00797434 /* EasyImagy.framework */,
-				C6DA047E2132E6DE00797434 /* EasyImagyTests.xctest */,
-				C6DA04802132E6DE00797434 /* EasyImagy.framework */,
-				C6DA04822132E6DE00797434 /* EasyImagyTests.xctest */,
-				C6DA04842132E6DE00797434 /* EasyImagy.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C6DA04862132E73A00797434 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C6DA04902132E73A00797434 /* EasyImagy.framework */,
-				C6DA04922132E73A00797434 /* EasyImagyTests-iOS.xctest */,
-				C6DA04942132E73A00797434 /* EasyImagy.framework */,
-				C6DA04962132E73A00797434 /* EasyImagyTests.xctest */,
-				C6DA04982132E73A00797434 /* EasyImagy.framework */,
-				C6DA049A2132E73A00797434 /* EasyImagyTests.xctest */,
-				C6DA049C2132E73A00797434 /* EasyImagy.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C6DA051B2132EA7800797434 /* Products */ = {
@@ -301,14 +180,13 @@
 		D6ECC46920E33EAC0042561B = {
 			isa = PBXGroup;
 			children = (
-				C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */,
-				C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */,
 				C6DA051A2132EA7800797434 /* EasyImagy.xcodeproj */,
 				D6ECC4B520E340630042561B /* EasyImagy.framework */,
 				D6ECC48D20E33F390042561B /* Sources */,
 				D6ECC49520E33F430042561B /* Tests */,
 				D6ECC4A420E340140042561B /* Sample */,
 				D6ECC47420E33EAC0042561B /* Products */,
+				C690CE5B213703E500101B87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -475,14 +353,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C6DA04862132E73A00797434 /* Products */;
-					ProjectRef = C6DA04852132E73A00797434 /* EasyImagy.xcodeproj */;
-				},
-				{
-					ProductGroup = C6DA046D2132E6DD00797434 /* Products */;
-					ProjectRef = C6DA046C2132E6DD00797434 /* EasyImagy.xcodeproj */;
-				},
-				{
 					ProductGroup = C6DA051B2132EA7800797434 /* Products */;
 					ProjectRef = C6DA051A2132EA7800797434 /* EasyImagy.xcodeproj */;
 				},
@@ -497,104 +367,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C6DA04782132E6DE00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA04772132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA047A2132E6DE00797434 /* EasyImagyTests-iOS.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "EasyImagyTests-iOS.xctest";
-			remoteRef = C6DA04792132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA047C2132E6DE00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA047B2132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA047E2132E6DE00797434 /* EasyImagyTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EasyImagyTests.xctest;
-			remoteRef = C6DA047D2132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04802132E6DE00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA047F2132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04822132E6DE00797434 /* EasyImagyTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EasyImagyTests.xctest;
-			remoteRef = C6DA04812132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04842132E6DE00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA04832132E6DE00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04902132E73A00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA048F2132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04922132E73A00797434 /* EasyImagyTests-iOS.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "EasyImagyTests-iOS.xctest";
-			remoteRef = C6DA04912132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04942132E73A00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA04932132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04962132E73A00797434 /* EasyImagyTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EasyImagyTests.xctest;
-			remoteRef = C6DA04952132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA04982132E73A00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA04972132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA049A2132E73A00797434 /* EasyImagyTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EasyImagyTests.xctest;
-			remoteRef = C6DA04992132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C6DA049C2132E73A00797434 /* EasyImagy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EasyImagy.framework;
-			remoteRef = C6DA049B2132E73A00797434 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		C6DA05332132EA7800797434 /* EasyImagy.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;

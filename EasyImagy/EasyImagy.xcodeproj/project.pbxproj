@@ -163,51 +163,51 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C6917FEF2129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE46213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F8A1E1AA19917A79009735E2;
 			remoteInfo = "Surge-iOS";
 		};
-		C6917FF12129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE48213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F84A6AAE19A9A72F007B53E1;
 			remoteInfo = "SurgeTests-iOS";
 		};
-		C6917FF32129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE4A213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 614AD31F1FC0AD99002BFE1C;
 			remoteInfo = "Surge-macOS";
 		};
-		C6917FF52129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE4C213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 614AD3271FC0AD99002BFE1C;
 			remoteInfo = "SurgeTests-macOS";
 		};
-		C6917FF72129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE4E213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 614AD3511FC0B001002BFE1C;
 			remoteInfo = "Surge-tvOS";
 		};
-		C6917FF92129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE50213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 614AD3591FC0B001002BFE1C;
 			remoteInfo = "SurgeTests-tvOS";
 		};
-		C6917FFB2129A5EE003D633A /* PBXContainerItemProxy */ = {
+		C690CE52213703AE00101B87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+			containerPortal = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 614AD3821FC0B125002BFE1C;
 			remoteInfo = "Surge-watchOS";
@@ -236,7 +236,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C6917FE52129A5ED003D633A /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = "../Surge-master/Surge.xcodeproj"; sourceTree = "<group>"; };
+		C690CE3C213703AE00101B87 /* Surge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Surge.xcodeproj; path = ../Surge/Surge.xcodeproj; sourceTree = "<group>"; };
 		D60D48A41FA0E3360047F2D3 /* ImageInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInternal.swift; sourceTree = "<group>"; };
 		D60D48A61FA16BB90047F2D3 /* RGBATyped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBATyped.swift; sourceTree = "<group>"; };
 		D6134A0E1F85226C005592A2 /* EasyImagy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyImagy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,16 +347,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C6917FE62129A5ED003D633A /* Products */ = {
+		C690CE3D213703AE00101B87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C6917FF02129A5EE003D633A /* Surge.framework */,
-				C6917FF22129A5EE003D633A /* SurgeTests-iOS.xctest */,
-				C6917FF42129A5EE003D633A /* Surge.framework */,
-				C6917FF62129A5EE003D633A /* SurgeTests-macOS.xctest */,
-				C6917FF82129A5EE003D633A /* Surge.framework */,
-				C6917FFA2129A5EE003D633A /* SurgeTests-tvOS.xctest */,
-				C6917FFC2129A5EE003D633A /* Surge.framework */,
+				C690CE47213703AE00101B87 /* Surge.framework */,
+				C690CE49213703AE00101B87 /* SurgeTests-iOS.xctest */,
+				C690CE4B213703AE00101B87 /* Surge.framework */,
+				C690CE4D213703AE00101B87 /* SurgeTests-macOS.xctest */,
+				C690CE4F213703AE00101B87 /* Surge.framework */,
+				C690CE51213703AE00101B87 /* SurgeTests-tvOS.xctest */,
+				C690CE53213703AE00101B87 /* Surge.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,7 +364,7 @@
 		D6134A041F85226C005592A2 = {
 			isa = PBXGroup;
 			children = (
-				C6917FE52129A5ED003D633A /* Surge.xcodeproj */,
+				C690CE3C213703AE00101B87 /* Surge.xcodeproj */,
 				D6134A281F852A49005592A2 /* Sources */,
 				D6134A391F852A57005592A2 /* Tests */,
 				D6134A0F1F85226C005592A2 /* Products */,
@@ -631,7 +631,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = koherent.org;
 				TargetAttributes = {
 					D6134A0D1F85226C005592A2 = {
@@ -676,8 +676,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C6917FE62129A5ED003D633A /* Products */;
-					ProjectRef = C6917FE52129A5ED003D633A /* Surge.xcodeproj */;
+					ProductGroup = C690CE3D213703AE00101B87 /* Products */;
+					ProjectRef = C690CE3C213703AE00101B87 /* Surge.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -694,53 +694,53 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C6917FF02129A5EE003D633A /* Surge.framework */ = {
+		C690CE47213703AE00101B87 /* Surge.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Surge.framework;
-			remoteRef = C6917FEF2129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE46213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FF22129A5EE003D633A /* SurgeTests-iOS.xctest */ = {
+		C690CE49213703AE00101B87 /* SurgeTests-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SurgeTests-iOS.xctest";
-			remoteRef = C6917FF12129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE48213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FF42129A5EE003D633A /* Surge.framework */ = {
+		C690CE4B213703AE00101B87 /* Surge.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Surge.framework;
-			remoteRef = C6917FF32129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE4A213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FF62129A5EE003D633A /* SurgeTests-macOS.xctest */ = {
+		C690CE4D213703AE00101B87 /* SurgeTests-macOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SurgeTests-macOS.xctest";
-			remoteRef = C6917FF52129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE4C213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FF82129A5EE003D633A /* Surge.framework */ = {
+		C690CE4F213703AE00101B87 /* Surge.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Surge.framework;
-			remoteRef = C6917FF72129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE4E213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FFA2129A5EE003D633A /* SurgeTests-tvOS.xctest */ = {
+		C690CE51213703AE00101B87 /* SurgeTests-tvOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SurgeTests-tvOS.xctest";
-			remoteRef = C6917FF92129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE50213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C6917FFC2129A5EE003D633A /* Surge.framework */ = {
+		C690CE53213703AE00101B87 /* Surge.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Surge.framework;
-			remoteRef = C6917FFB2129A5EE003D633A /* PBXContainerItemProxy */;
+			remoteRef = C690CE52213703AE00101B87 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1028,6 +1028,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1035,6 +1036,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1086,6 +1088,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1093,6 +1096,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
