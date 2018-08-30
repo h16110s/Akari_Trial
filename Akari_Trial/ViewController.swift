@@ -18,20 +18,23 @@ class ViewController: UIViewController {
         
         
         camera.start { [weak self] image in
-            // Makes `image` negative
+            // Makes `image` negative ネガティブ反転
             
             image.update { pixel in
-                
                 //pixel.red = 255 - pixel.red
                 //pixel.green = 255 - pixel.green
                 //pixel.blue = 255 - pixel.blue
             }
+            
             if(self?.FFTCount == 0){
+                //FFT関連
                 self?.wave = TimeAxisWaveFormGenerate.extractRGBTimeAxisWaveForm(inputImage: image)
                 self?.spectrum = MultiplyWindowToTimeAxisWaveForm.MultiplyWindowAndZerofillToTimeAxisWaveForm(timeAxisWaveForm: (self?.wave)!)
                 self?.detectPeakAndPlot()
                 
+                //カメラ画像の編集（回転など）
                 var imageOut = TimeAxisWaveFormPlot.plotTimeAxisWaveFormR(inputImage: image, timeAxisWaveForm: (self?.spectrum)!)
+                //描画
                 self?.imageView.image = imageOut.uiImage(orientedTo: UIApplication.shared.cameraOrientation)
                 self?.FFTCount = (self?.MAXFFTCount)!;
             }
