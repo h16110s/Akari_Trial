@@ -6,7 +6,7 @@ import EasyImagy
 
 class ViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
-    
+    //カメラを起動
     private let camera: Camera<RGBA<UInt8>> = try! Camera(sessionPreset: .high, focusMode: .continuousAutoFocus)
     
     private var FFTCount = 0;
@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     private var spectrum = [Float]()
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        
+        //---カメラで撮影---ここから------------------------------------------------------------------
+        //imageにRGBで取得していると思われる
         camera.start { [weak self] image in
             // Makes `image` negative ネガティブ反転
             
@@ -25,23 +25,29 @@ class ViewController: UIViewController {
                 //pixel.green = 255 - pixel.green
                 //pixel.blue = 255 - pixel.blue
             }
-            
+            //FFTCountが0になったタイミングでFFTと描画開始
             if(self?.FFTCount == 0){
-                //FFT関連
+                /* FFT -----ここから------------------------------------------------*/
+                //波形の作成
                 self?.wave = TimeAxisWaveFormGenerate.extractRGBTimeAxisWaveForm(inputImage: image)
+                //FFTによるスペクトル解析
                 self?.spectrum = MultiplyWindowToTimeAxisWaveForm.MultiplyWindowAndZerofillToTimeAxisWaveForm(timeAxisWaveForm: (self?.wave)!)
+                //ピーク波形の特定
                 self?.detectPeakAndPlot()
+                /* FFT -----ここまで------------------------------------------------*/
                 
-                //カメラ画像の編集（回転など）
+                /* imageの描画-----ここから------------------------------------------------*/
+                //カメラ画像の編集
                 var imageOut = TimeAxisWaveFormPlot.plotTimeAxisWaveFormR(inputImage: image, timeAxisWaveForm: (self?.spectrum)!)
                 //描画
                 self?.imageView.image = imageOut.uiImage(orientedTo: UIApplication.shared.cameraOrientation)
                 self?.FFTCount = (self?.MAXFFTCount)!;
+                /* imageの描画-----ここから------------------------------------------------*/
             }
+            /*毎回FFTをしなくてもいいようになっていると思われる*/
             self?.FFTCount -= 1
-            
-            
         }
+        //---カメラで撮影---ここまで------------------------------------------------------------------
     }
     
     func detectPeakAndPlot()
