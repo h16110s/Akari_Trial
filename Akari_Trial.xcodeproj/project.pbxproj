@@ -13,6 +13,9 @@
 		C6ACB4952139D867007B1FA3 /* EasyCamery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6ACB4902139D867007B1FA3 /* EasyCamery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C6ACB4962139D867007B1FA3 /* Surge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ACB4912139D867007B1FA3 /* Surge.framework */; };
 		C6ACB4972139D867007B1FA3 /* Surge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6ACB4912139D867007B1FA3 /* Surge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C6C0A752213C4A3E00C4CDF8 /* S__59351050.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C0A74F213C4A3E00C4CDF8 /* S__59351050.png */; };
+		C6C0A753213C4A3E00C4CDF8 /* FalsePic.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C0A750213C4A3E00C4CDF8 /* FalsePic.png */; };
+		C6C0A754213C4A3E00C4CDF8 /* TruePic.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C0A751213C4A3E00C4CDF8 /* TruePic.png */; };
 		C6DA03AC2132E1AE00797434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03AB2132E1AE00797434 /* AppDelegate.swift */; };
 		C6DA03AE2132E1AE00797434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03AD2132E1AE00797434 /* ViewController.swift */; };
 		C6DA03B12132E1AE00797434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03AF2132E1AE00797434 /* Main.storyboard */; };
@@ -22,9 +25,6 @@
 		C6DA03CC2132E1B200797434 /* Akari_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03CB2132E1B200797434 /* Akari_TrialUITests.swift */; };
 		C6DA03E12132E58C00797434 /* FalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03DF2132E58C00797434 /* FalseViewController.swift */; };
 		C6DA03E22132E58C00797434 /* TrueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03E02132E58C00797434 /* TrueViewController.swift */; };
-		C6DA03EC2132E5D500797434 /* FalsePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03E92132E5D500797434 /* FalsePic.jpg */; };
-		C6DA03ED2132E5D500797434 /* TruePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03EA2132E5D500797434 /* TruePic.jpg */; };
-		C6DA03EE2132E5D500797434 /* S__59351050.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6DA03EB2132E5D500797434 /* S__59351050.jpg */; };
 		C6DA03F42132E5E500797434 /* DetectPeakOfSpectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F02132E5E500797434 /* DetectPeakOfSpectrum.swift */; };
 		C6DA03F52132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F12132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift */; };
 		C6DA03F62132E5E500797434 /* TimeAxisWaveFormPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DA03F22132E5E500797434 /* TimeAxisWaveFormPlot.swift */; };
@@ -69,6 +69,9 @@
 		C6ACB48F2139D866007B1FA3 /* EasyImagy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyImagy.framework; sourceTree = "<group>"; };
 		C6ACB4902139D867007B1FA3 /* EasyCamery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EasyCamery.framework; sourceTree = "<group>"; };
 		C6ACB4912139D867007B1FA3 /* Surge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Surge.framework; sourceTree = "<group>"; };
+		C6C0A74F213C4A3E00C4CDF8 /* S__59351050.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S__59351050.png; sourceTree = "<group>"; };
+		C6C0A750213C4A3E00C4CDF8 /* FalsePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FalsePic.png; sourceTree = "<group>"; };
+		C6C0A751213C4A3E00C4CDF8 /* TruePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TruePic.png; sourceTree = "<group>"; };
 		C6DA03A82132E1AE00797434 /* Akari_Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akari_Trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DA03AB2132E1AE00797434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6DA03AD2132E1AE00797434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,9 +87,6 @@
 		C6DA03CD2132E1B200797434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6DA03DF2132E58C00797434 /* FalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalseViewController.swift; sourceTree = "<group>"; };
 		C6DA03E02132E58C00797434 /* TrueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueViewController.swift; sourceTree = "<group>"; };
-		C6DA03E92132E5D500797434 /* FalsePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FalsePic.jpg; sourceTree = "<group>"; };
-		C6DA03EA2132E5D500797434 /* TruePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TruePic.jpg; sourceTree = "<group>"; };
-		C6DA03EB2132E5D500797434 /* S__59351050.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = S__59351050.jpg; sourceTree = "<group>"; };
 		C6DA03F02132E5E500797434 /* DetectPeakOfSpectrum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectPeakOfSpectrum.swift; sourceTree = "<group>"; };
 		C6DA03F12132E5E500797434 /* MultiplyWindowToTimeAxisWaveForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplyWindowToTimeAxisWaveForm.swift; sourceTree = "<group>"; };
 		C6DA03F22132E5E500797434 /* TimeAxisWaveFormPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAxisWaveFormPlot.swift; sourceTree = "<group>"; };
@@ -151,9 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				C6DA03EF2132E5E500797434 /* class */,
-				C6DA03E92132E5D500797434 /* FalsePic.jpg */,
-				C6DA03EB2132E5D500797434 /* S__59351050.jpg */,
-				C6DA03EA2132E5D500797434 /* TruePic.jpg */,
+				C6C0A750213C4A3E00C4CDF8 /* FalsePic.png */,
+				C6C0A74F213C4A3E00C4CDF8 /* S__59351050.png */,
+				C6C0A751213C4A3E00C4CDF8 /* TruePic.png */,
 				C6DA03DF2132E58C00797434 /* FalseViewController.swift */,
 				C6DA03E02132E58C00797434 /* TrueViewController.swift */,
 				C6DA03AB2132E1AE00797434 /* AppDelegate.swift */,
@@ -309,11 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6DA03B62132E1B100797434 /* LaunchScreen.storyboard in Resources */,
-				C6DA03ED2132E5D500797434 /* TruePic.jpg in Resources */,
+				C6C0A754213C4A3E00C4CDF8 /* TruePic.png in Resources */,
 				C6DA03B32132E1B100797434 /* Assets.xcassets in Resources */,
-				C6DA03EC2132E5D500797434 /* FalsePic.jpg in Resources */,
+				C6C0A752213C4A3E00C4CDF8 /* S__59351050.png in Resources */,
 				C6DA03B12132E1AE00797434 /* Main.storyboard in Resources */,
-				C6DA03EE2132E5D500797434 /* S__59351050.jpg in Resources */,
+				C6C0A753213C4A3E00C4CDF8 /* FalsePic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
