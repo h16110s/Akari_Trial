@@ -62,7 +62,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TruePic.png" translatesAutoresizingMaskIntoConstraints="NO" id="FUV-5b-HVj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TruePic" translatesAutoresizingMaskIntoConstraints="NO" id="FUV-5b-HVj">
                                 <rect key="frame" x="16" y="29" width="343" height="627"/>
                             </imageView>
                         </subviews>
@@ -88,7 +88,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FalsePic.png" translatesAutoresizingMaskIntoConstraints="NO" id="KAo-LW-DMz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FalsePic" translatesAutoresizingMaskIntoConstraints="NO" id="KAo-LW-DMz">
                                 <rect key="frame" x="16" y="20" width="343" height="627"/>
                             </imageView>
                         </subviews>
@@ -108,7 +108,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="FalsePic.png" width="1066" height="1536"/>
-        <image name="TruePic.png" width="960" height="1706"/>
+        <image name="FalsePic" width="320" height="461"/>
+        <image name="TruePic" width="320" height="568"/>
     </resources>
 </document>
